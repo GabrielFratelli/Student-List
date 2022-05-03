@@ -42,6 +42,8 @@ export function Home() {
         avatar: data.avatar_url,
       });
     }
+
+    fetchData();
   }, []);
 
   return (
